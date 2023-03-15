@@ -1,0 +1,95 @@
+baseurl = ""
+languageCode = "en-us"
+title = "markusryoti.com"
+
+theme        = "hello-friend-ng"
+paginate     = 10
+
+PygmentsUseClasses = false
+PygmentsCodeFences = true
+PygmentsStyle = "dracula"
+
+enableEmoji = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "This is Markus's site"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+[author]
+  name = "Markus Ryoti"
+
+[params.logo]
+  logoMark     = " "
+  logoText     = "markusryoti.com"
+  logoHomeLink = "/"
+  logoCursorDisabled = true
+
+[params.footer]
+  trademark = true
+  rss = false
+  copyright = false
+  author = true
+  topText = []
+  bottomText = []
+
+[[params.social]]
+    name = "email"
+    url  = "mailto:mryoti@gmail.com"
+
+[[params.social]]
+    name = "github"
+    url  = "https://github.com/markusryoti"
+
+[[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/markusryoti"
+
+[params.portrait]
+    path     = "https://images.unsplash.com/photo-1678750267403-42d7ac3e75e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    alt      = "Portrait"
+    maxWidth = "200px"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = ""
+    subtitle = ""
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact"
