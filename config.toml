@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://markusryoti.github.io/personal-site"
 languageCode = "en-us"
 title = "markusryoti.com"
 
@@ -37,7 +37,7 @@ enableEmoji = true
 [params.logo]
   logoMark     = " "
   logoText     = "markusryoti.com"
-  logoHomeLink = "/"
+  logoHomeLink = "/personal-site"
   logoCursorDisabled = true
 
 [params.footer]
